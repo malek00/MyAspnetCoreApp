@@ -38,7 +38,7 @@ namespace MyAspnetCoreApp
                 app.UseDeveloperExceptionPage();
             }
             else
-            {
+            { //erte
                 app.UseExceptionHandler("/Error");
             }
             app.UseForwardedHeaders(new ForwardedHeadersOptions
